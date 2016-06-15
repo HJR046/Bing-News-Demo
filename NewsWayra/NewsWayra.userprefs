@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Droid/NewsWayra.Droid.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/NewsResult.cs">
+    <Files>
+      <File FileName="Droid/NewsResult.cs" Line="33" Column="34" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PC06/Projects/NewsWayra/Droid/NewsResult.cs" line="36" column="4" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NewsWayra.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.724136D1-3D95-40FB-A9B0-2645DBFCF28A" />
+  <MonoDevelop.Ide.ItemProperties.NewsWayra.Droid PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" />
+</Properties>
