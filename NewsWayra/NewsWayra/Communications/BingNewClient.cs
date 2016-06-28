@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -31,7 +31,7 @@ namespace NewsWayra
 			var requestUrl = string.Format(url, queryString["query"], queryString["count"], queryString["offset"]
 										   , queryString["mkt"], queryString["safeSearch"]);
 
-			_newsClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", “YourKey”);
+			_newsClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "2bbc8f18a31543ce9995980a922017fb");
 			response = await _newsClient.GetStringAsync(requestUrl);
 
 			return response;

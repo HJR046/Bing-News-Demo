@@ -1,18 +1,20 @@
 ﻿<Properties StartupItem="Droid/NewsWayra.Droid.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/NewsResult.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Droid/NewsResult.cs" Line="33" Column="34" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="iOS/ViewController.cs" Line="1" Column="1" />
+      <File FileName="iOS/TableSources/NewTableSource.cs" Line="56" Column="59" />
+      <File FileName="iOS/ResultsTableViewController.cs" Line="26" Column="27" />
+      <File FileName="iOS/ViewController.cs" Line="10" Column="3" />
+      <File FileName="NewsWayra/Model/New.cs" Line="1" Column="1" />
+      <File FileName="NewsWayra/Model/NewsResult.cs" Line="35" Column="23" />
+      <File FileName="Droid/NewsResult.cs" Line="26" Column="23" />
+      <File FileName="iOS/ViewController.designer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/PC06/Projects/NewsWayra/Droid/NewsResult.cs" line="36" column="4" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.NewsWayra.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.724136D1-3D95-40FB-A9B0-2645DBFCF28A" />
-  <MonoDevelop.Ide.ItemProperties.NewsWayra.Droid PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" />
+  <MonoDevelop.Ide.ItemProperties.NewsWayra.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
 </Properties>
