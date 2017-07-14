@@ -1,20 +1,25 @@
-﻿<Properties StartupItem="Droid/NewsWayra.Droid.csproj">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{C94010B9-EA6E-4965-8EC3-ECBCD41B8FE3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsWayra Status">
     <Files>
-      <File FileName="iOS/TableSources/NewTableSource.cs" Line="56" Column="59" />
+      <File FileName="iOS/TableSources/NewTableSource.cs" Line="70" Column="4" />
       <File FileName="iOS/ResultsTableViewController.cs" Line="26" Column="27" />
       <File FileName="iOS/ViewController.cs" Line="10" Column="3" />
       <File FileName="NewsWayra/Model/New.cs" Line="1" Column="1" />
       <File FileName="NewsWayra/Model/NewsResult.cs" Line="35" Column="23" />
-      <File FileName="Droid/NewsResult.cs" Line="26" Column="23" />
+      <File FileName="Droid/NewsResult.cs" Line="36" Column="36" />
       <File FileName="iOS/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="Droid/Adapters/NewsAdapter.cs" Line="59" Column="58" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="NewsWayra/Communications/BingNewClient.cs" Line="34" Column="79" />
+      <File FileName="NewsWayra Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.NewsWayra.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.724136D1-3D95-40FB-A9B0-2645DBFCF28A" />
-  <MonoDevelop.Ide.ItemProperties.NewsWayra.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NewsWayra.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

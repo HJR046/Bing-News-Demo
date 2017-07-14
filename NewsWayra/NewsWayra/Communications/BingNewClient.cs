@@ -11,7 +11,7 @@ namespace NewsWayra
 
 		private readonly HttpClient _newsClient = new HttpClient();
 		private const string url = 
-			"https://bingapis.azure-api.net/api/v5/news/search?q={0}&count={1}&offset={2}&mkt={3}&safeSearch={4}";
+			"https://api.cognitive.microsoft.com/bing/v5.0/news/search?q={0}&count={1}&offset={2}&mkt={3}&safeSearch={4}";
 
 		public BingNewClient()
 		{
@@ -31,7 +31,7 @@ namespace NewsWayra
 			var requestUrl = string.Format(url, queryString["query"], queryString["count"], queryString["offset"]
 										   , queryString["mkt"], queryString["safeSearch"]);
 
-			_newsClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "2bbc8f18a31543ce9995980a922017fb");
+			_newsClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "YourKey");
 			response = await _newsClient.GetStringAsync(requestUrl);
 
 			return response;

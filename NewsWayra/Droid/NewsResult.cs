@@ -38,7 +38,7 @@ namespace NewsWayra.Droid
 			NewsManager newsManager = new NewsManager();
 			 news = await newsManager.GetNews(query);
 			NewsAdapter adapter = new NewsAdapter(news, this);
-
+            ArrayAdapter adapater2 = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1,news);
 			 
 			lvResults.Adapter = adapter;
 
